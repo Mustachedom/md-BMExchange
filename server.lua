@@ -22,7 +22,7 @@ RegisterNetEvent('md-exchange:server:BlackMarketexchange', function()
                 TriggerClientEvent('QBCore:Notify', src, "You dont have anything to sell")
             else
                 Player.Functions.AddItem(Config.CurrencyItem, price, "sold-a lot")
-                TriggerClientEvent('QBCore:Notify', src, "You Got Rid Of Some Hot Stuff" .. price)
+                TriggerClientEvent('QBCore:Notify', src, "You Got Rid Of Some Hot Stuff For A Price Of" .. price)
             end
         else
             TriggerClientEvent('QBCore:Notify', src, "You don't have items")
