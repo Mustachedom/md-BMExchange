@@ -32,12 +32,12 @@ Citizen.CreateThread(function()
     spawnPeds()
 end)
 CreateThread(function()
-     exports['qb-target']:AddBoxZone("BlackMarketexchange",vector3(755.63, -1863.9, 29.29), 1, 1, {
+     exports['qb-target']:AddBoxZone("BlackMarketexchange",vector3(755.63, -1863.9, 28.29), 1, 1, {
         name = "BlackMarketexchange",
         heading = 11,
         debugPoly = false,
-        minZ = 27,
-        maxZ = 29,
+        minZ = 26,
+        maxZ = 30,
         }, {
         options = {
             {
