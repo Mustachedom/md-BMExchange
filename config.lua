@@ -2,7 +2,7 @@ Config = {}
 Config.Peds = {
     {
        model = 'a_f_y_vinewood_04',
-        coords = vector4(755.63, -1863.9, 29.29, 269.67)
+        coords = vector4(755.63, -1863.9, 28.29, 269.67)
     },
 }
 
