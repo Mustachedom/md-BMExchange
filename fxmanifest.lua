@@ -1,6 +1,6 @@
-name "mustache-exchange"
+name "mustache-BMExchange"
 author "mustache_dom"
-description "exhange by mustache dom"
+description "BMExchange by mustache dom"
 fx_version "cerulean"
 game "gta5"
 
